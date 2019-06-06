@@ -10,3 +10,4 @@ export { default as TopMusic } from "./top-songs";
 export { default as ProgressBar } from "./progress-bar";
 export { default as PlaybackControls } from "./playback-controls";
 export { default as MediaItemList } from "./media-item-list";
+export { default as MarkdownContent } from "./markdown-content";
