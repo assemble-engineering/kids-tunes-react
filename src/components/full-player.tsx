@@ -130,12 +130,12 @@ const Artist: SFC<TextColor> = styled.h3`
   letter-spacing: -0.4px;
   text-align: center;
   color: ${props => props.color};
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 `;
 
 const MusicControls = styled.div`
   height: 50px;
-  margin: 0px auto 45px auto;
+  margin: 0px auto 20px auto;
   width: 310px;
   display: grid;
   grid-template-columns: 115px 1fr 115px;
@@ -172,7 +172,7 @@ const PlayButton = styled(PlayIcon)`
 `;
 
 const CloseButton = styled(CloseIcon)`
-  margin: 10px 0px 65px 0px;
+  margin: 0px 0px 20px 0px;
   cursor: pointer;
   width: 22px;
   height: 21px;
