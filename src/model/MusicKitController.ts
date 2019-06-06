@@ -52,7 +52,8 @@ export class MusicKitController {
         baseURL: "https://api.music.apple.com/v1",
         headers: {
           Authorization: `Bearer ${this.instance.developerToken}`,
-          "Music-User-Token": this.instance.musicUserToken
+          "Music-User-Token": this.instance.musicUserToken,
+          "Cache-Control": "no-cache"
         }
       });
     }
